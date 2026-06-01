@@ -11,6 +11,30 @@ import { DATA } from "@/data/resume";
 import { Timeline, TimelineItem, TimelineConnectItem } from "@/components/timeline";
 import Link from "next/link";
 
+function TestimonialAvatar({ name, image }: { name: string; image: string }) {
+  if (image) {
+    return (
+      <img
+        src={image}
+        alt={name}
+        className="size-10 bg-card z-10 shrink-0 overflow-hidden border rounded-full shadow ring-2 ring-border object-cover flex-none"
+      />
+    );
+  }
+
+  return (
+    <div className="size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-border flex items-center justify-center flex-none">
+      <span className="text-xs font-semibold text-muted-foreground">
+        {name
+          .split(" ")
+          .map((n) => n[0])
+          .join("")
+          .slice(0, 2)}
+      </span>
+    </div>
+  );
+}
+
 export default function TestimonialsSection() {
   return (
     <section id="testimonials" className="overflow-hidden">
@@ -40,23 +64,7 @@ export default function TestimonialsSection() {
               className="w-full flex items-start justify-between gap-10"
             >
               <TimelineConnectItem className="flex items-start justify-center">
-                {testimonial.image ? (
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.title}
-                    className="size-10 bg-card z-10 shrink-0 overflow-hidden border rounded-full shadow ring-2 ring-border object-cover flex-none"
-                  />
-                ) : (
-                  <div className="size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-border flex items-center justify-center flex-none">
-                    <span className="text-xs font-semibold text-muted-foreground">
-                      {testimonial.title
-                        .split(" ")
-                        .map((n) => n[0])
-                        .join("")
-                        .slice(0, 2)}
-                    </span>
-                  </div>
-                )}
+                <TestimonialAvatar name={testimonial.title} image={testimonial.image} />
               </TimelineConnectItem>
               <div className="flex flex-1 flex-col justify-start gap-2 min-w-0">
                 {testimonial.dates && (
