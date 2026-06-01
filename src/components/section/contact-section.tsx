@@ -40,6 +40,15 @@ export default function ContactSection() {
             className="text-blue-500 hover:underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
           >
             X
+          </Link>{" "}
+          or{" "}
+          <Link
+            href={DATA.contact.social.Telegram.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
+          >
+            Telegram
           </Link>
           . I&apos;ll respond whenever I can.
         </p>

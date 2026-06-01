@@ -50,6 +50,12 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
+      Telegram: {
+        name: "Telegram",
+        url: "https://t.me/paulcruiser",
+        icon: Icons.telegram,
+        navbar: true,
+      },
     },
   },
 
