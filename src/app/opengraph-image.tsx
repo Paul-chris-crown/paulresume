@@ -78,9 +78,10 @@ const styles = {
     image: {
         width: "140px",
         height: "140px",
-        borderRadius: "24px",
+        borderRadius: "9999px",
         border: "4px solid #e5e5e5",
         objectFit: "cover",
+        objectPosition: "center 22%",
     },
     title: {
         fontFamily: "Clash Display",

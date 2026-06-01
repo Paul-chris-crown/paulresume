@@ -1,701 +1,260 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
-import { ReactLight } from "@/components/ui/svgs/reactLight";
-import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
-import { Typescript } from "@/components/ui/svgs/typescript";
-import { Nodejs } from "@/components/ui/svgs/nodejs";
-import { Python } from "@/components/ui/svgs/python";
-import { Golang } from "@/components/ui/svgs/golang";
-import { Postgresql } from "@/components/ui/svgs/postgresql";
-import { Docker } from "@/components/ui/svgs/docker";
-import { Kubernetes } from "@/components/ui/svgs/kubernetes";
-import { Java } from "@/components/ui/svgs/java";
-import { Csharp } from "@/components/ui/svgs/csharp";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Paul Cruiser",
+  firstName: "Christain",
+  initials: "PC",
+  url: "https://paulcruiser.vercel.app",
+  location: "West Africa",
+  locationLink: "https://www.google.com/maps/place/West+Africa",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "DeFi Growth Architect | Founder, Bethany Ventures. I help Web3 projects unlock scalable growth through ecosystem strategy, high-value partnerships, and community infrastructure backed by $1M+ in verified execution.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+    "High-impact Web3 Business Development and Ecosystem Growth leader with 5+ years of hands-on experience building strategic partnerships, scaling communities, and driving user and protocol adoption across DeFi, NFT, and Layer-1/Layer-2 ecosystems. Founded [Bethany Ventures](https://web.bethanyventures.org), an elite venture agency that has processed $2M+ in transaction volume across Listings, OTC, Market Making, and Fundraising. Experienced public speaker, X Space host, and ecosystem advisor trusted by protocols including OKX, Injective, Oraichain, and Pearl Finance.\n\nI specialize in providing tailored services to the DeFi community and project managers, covering everything from conceptualization to development and finalization. My approach is highly customizable, ensuring that every project receives the required attention and solutions it deserves for optimal success.",
+  avatarUrl: "/headshot.jpg",
   skills: [
-    { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
-    { name: "Node.js", icon: Nodejs },
-    { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
-    { name: "Postgres", icon: Postgresql },
-    { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
-    { name: "Java", icon: Java },
-    { name: "C++", icon: Csharp },
+    { name: "Community Engagement" },
+    { name: "Blockchain & DeFi" },
+    { name: "Financial Acumen" },
+    { name: "Problem Solving" },
+    { name: "Community Development" },
+    { name: "Content Development" },
+    { name: "OTC Deal Origination" },
+    { name: "KOL & Investor Relations" },
+    { name: "Protocol Advisory" },
+    { name: "Public Speaking" },
+    { name: "Developer Relations" },
+    { name: "Tokenomics" },
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "paulchristainn@icloud.com",
+    tel: "",
     social: {
-      GitHub: {
-        name: "GitHub",
-        url: "https://dub.sh/dillion-github",
-        icon: Icons.github,
-        navbar: true,
-      },
-
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
-        icon: Icons.linkedin,
-
+      email: {
+        name: "Send Email",
+        url: "mailto:paulchristainn@icloud.com",
+        icon: Icons.email,
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/paulcruiser",
         icon: Icons.x,
-
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/paulcruiser",
+        icon: Icons.linkedin,
         navbar: true,
-      },
-      email: {
-        name: "Send Email",
-        url: "#",
-        icon: Icons.email,
-
-        navbar: false,
       },
     },
   },
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Bethany Ventures",
+      href: "https://web.bethanyventures.org",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      title: "Founder & Team Lead",
+      logoUrl: "/logos/bethany-ventures.png",
+      start: "June 2025",
+      end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Elite Venture Agency for Web3 & Emerging Tech.\n\n• Processed $2M+ in volume across Listings, OTC, Market Making, and Startup Fundraising within the first months of operation.\n• Built and scaled a full BD pipeline: identified, outreached, and closed partnerships with exchange-listed projects across launchpads, DeFi protocols, and service providers.\n• Maintained an active CRM tracking 30+ outreach prospects and 10+ closed partnerships at any given time.\n• Represented Bethany Ventures at industry events, Twitter Spaces, and online communities, establishing brand credibility in the Web3 ecosystem.",
     },
     {
-      company: "Shopify",
+      company: "Paywiththunder",
+      href: "https://www.paywiththunder.com/",
       badges: [],
-      href: "https://shopify.com",
       location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      title: "Chief Product Officer",
+      logoUrl: "/logos/paywiththunder.png",
+      start: "2024",
+      end: "Present",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Next-generation payment platform unifying fiat, cryptocurrency, and international payments in one secure, easy-to-use experience.\n\n• Own product vision and roadmap for Thunder Pay, the everyday payment layer helping users deposit crypto, pay bills, send money, hold naira, earn rewards, and spend from one unified wallet.\n• Led phased product delivery from crypto deposits and instant bill payments (airtime, data, electricity, cable TV) to crypto-to-naira bank transfers, naira accounts, referrals, and ambassador growth programs.\n• Shaped the hybrid payments experience across 7+ supported assets (BTC, USDT, USDC, TRX, SOL, BNB) and multi-chain wallet infrastructure built for real-world use.\n• Drive expansion into virtual cards, global currency accounts, and merchant/fintech API infrastructure to make crypto usable in everyday transactions.",
     },
     {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
+      company: "OKX",
+      href: "https://www.okx.com",
       badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
+      location: "West Africa",
+      title: "Business Development Lead, African Region",
+      logoUrl: "/logos/okx.jpg",
+      start: "April 2025",
+      end: "Present",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "One of the world's top 3 crypto exchanges by trading volume.\n\n• Led user acquisition across 5+ West African markets, onboarding 10+ high-impact KOLs in each region, 5 Smart Money traders, and 7 institutional partners within 8 months, driving 60% growth in regional active users.\n• Grew USD-denominated trading volumes by 100% quarter-over-quarter through structured community and institutional relationship programmes across West Africa.\n• Deployed scalable onboarding solutions reaching 50+ retail and professional traders, contributing to 50% increase in new account activations across target markets.\n• Identified and activated 3 emerging market opportunities, aligning them with OKX's product suite to generate 5+ new partnerships and >$1M in attributed transaction volume.",
     },
     {
-      company: "Splunk",
-      href: "https://splunk.com",
+      company: "Pearl Finance",
+      href: "https://pearl.exchange",
       badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
+      location: "Remote",
+      title: "Growth Lead | KOL Lead",
+      logoUrl: "/logos/pearl-finance.jpg",
+      start: "June 2023",
+      end: "February 2025",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "Premiere (3,3) Native DEX cross-chain liquidity for tokenized real world assets, with 20 months of sustained growth.\n\n• Contributed to the protocol reaching an all-time high TVL of $80M through targeted community engagement and cross-team marketing collaboration.\n• Grew the community to 5,000+ Twitter followers and attracted 2k+ qualified potential investors through strategic KOL outreach and advisory.\n• Coordinated Discord server of 5k+ members, hosting regular prize-incentivised events to sustain high engagement rates throughout.\n• Worked directly with the core team on marketing campaigns, providing grassroots community feedback that shaped product messaging and go-to-market strategy.",
     },
     {
-      company: "Lime",
-      href: "https://li.me/",
+      company: "Arkham Intelligence",
+      href: "https://www.arkhamintelligence.com",
       badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
+      location: "Remote",
+      title: "VIP / Affiliate",
+      logoUrl: "/logos/arkham.jpg",
+      start: "Oct 2023",
+      end: "Dec 2024",
       description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+        "• Built a referral network generating 200+ verified sign-ups across the Arkham Exchange and Intelligence Platform.\n• Nominated 50+ high-calibre market participants to the VIP programme, earning 10% of their accumulated points and expanding the programme's reach.\n• Participated in VIP-only events and social campaigns, amplifying Arkham's brand within professional crypto and trading circles.\n• Maintained 100% ethical compliance across all referral and nomination activities, adhering to Arkham's programme guidelines.",
     },
     {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
+      company: "Arbi Roul",
+      href: "https://x.com/ArbiRoul",
       badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
+      location: "Remote",
+      title: "Growth Lead",
+      logoUrl: "/logos/arbi-roul.jpg",
+      start: "February 2023",
+      end: "May 2023",
       description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "• Worked closely with the marketing team, helping them reach an all-time high of $30M.\n• Recorded over 50M trading volumes in the first weeks.\n• Grew the community to over 15k followers on Twitter and attracted more than 1.7k potential investors through strategic advice and promotion.",
     },
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
+      school: "Federal University of Agriculture Abeokuta",
+      href: "https://funaab.edu.ng",
+      degree: "Bachelor of Science in Computer Science",
+      logoUrl: "/logos/funaab.jpg",
+      start: "",
+      end: "",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      school: "Nirvana Academy",
+      href: "https://x.com/TheNirvanAcad",
+      degree: "Advanced Decentralised Finance",
+      logoUrl: "/logos/nirvana-academy.jpg",
+      start: "",
+      end: "",
     },
   ],
-  projects: [
+  services: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Community Development",
+      href: "mailto:paulchristainn@icloud.com",
+      dates: "DeFi · Discord · Telegram",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "As a Community Development specialist in decentralized finance (DeFi), I provide comprehensive support to DeFi projects in building, engaging, and nurturing their online communities.",
+      technologies: ["Discord", "Telegram", "X Spaces", "Moderation", "Engagement"],
+      links: [],
+      image: "/services/community-development.jpg",
+      video: "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Key Opinion Leader",
+      href: "mailto:paulchristainn@icloud.com",
+      dates: "KOL · Advisory · Growth",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+        "I provide expert insights and professional services to foster vibrant and well-regulated online communities, ensuring seamless engagement and growth for DeFi projects.",
+      technologies: ["KOL Outreach", "Content Strategy", "X Threads", "Brand Growth"],
+      links: [],
+      image: "/services/kol-growth.jpg",
+      video: "",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Consulting / Advisory",
+      href: "mailto:paulchristainn@icloud.com",
+      dates: "Strategy · Partnerships · BD",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "As a DeFi Consulting/Advisory professional, I offer strategic guidance and expert advice to DeFi projects seeking to navigate the complex and rapidly evolving landscape of decentralized finance.",
+      technologies: ["Tokenomics", "Partnerships", "Fundraising", "Market Making"],
+      links: [],
+      image: "/services/consulting-advisory.jpg",
+      video: "",
     },
   ],
-  hackathons: [
+  testimonials: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Mika Mikachu",
+      dates: "Founder, Troves Tech",
+      location: "",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+        "Paul is a great guy to work with. Since the beginning of our cooperation he has always been actively supporting and cheering for the project. I never had to ping Paul or long wait for response. He always delivers quick and his content is great. Not only he shills the project on his social media but also actively discuss it with his network bringing even more interest and exposure. Summing up working with Paul is super smooth and I definitely recommend him as a KOL/advisor.",
+      image: "/testimonials/mika-mikachu.jpg",
+      links: [
+        {
+          title: "Troves Tech",
+          href: "https://x.com/trovestech",
+          icon: <Icons.x className="h-4 w-4" />,
+        },
+      ],
+    },
+    {
+      title: "Dr Pepper",
+      dates: "Co-founder, CoChilli",
+      location: "",
+      description:
+        "Paul took on the responsibility of overseeing all aspects of our community engagement across various platforms, including Discord and Telegram. He excelled in nurturing a positive community spirit, ensuring all members were well-informed and safeguarded against any malicious activities. His proactive approach and adept handling of community interactions significantly enhanced user experience and engagement.",
+      image: "/testimonials/dr-pepper.jpg",
+      links: [
+        {
+          title: "CoChilli",
+          href: "https://x.com/CoChilli_io",
+          icon: <Icons.x className="h-4 w-4" />,
+        },
+      ],
+    },
+    {
+      title: "Heiko Trenkle",
+      dates: "Founder, Nyxia AI · Apr 2024",
+      location: "Berlin",
+      description:
+        "Paul has been an invaluable member of our team since the very first days. He consistently demonstrated exceptional skills in managing our Discord and Telegram communities, independently ran our ticketing and Zealy campaigns, and wrote educational X threads that drove visibility and growth. I confidently recommend him. His reliability, professionalism, and positive attitude made him a pleasure to work with.",
+      fullText:
+        "To Whom It May Concern,\n\nNyxia AI is a Web3 startup based in Berlin, dedicated to using AI to drive positive change in society. In addition to NyxiaGPT, the top spiritual GPT in OpenAI's GPT Store, Nyxia AI also hosts Nyxia AI Music, an AI music lab with multiple releases available on Spotify.\n\nAs the founder of Nyxia AI, I am pleased to write this letter of recommendation for Paul, who has been an invaluable member of our team since the very first days.\n\nDuring his tenure with us, Paul has consistently demonstrated exceptional skills and an unwavering commitment to excellence in managing our community channels and spearheading key campaigns.\n\nPaul took on the responsibility of overseeing all aspects of our community engagement across various platforms, including Discord and Telegram. He excelled in nurturing a positive community spirit, ensuring all members were well-informed and safeguarded against any malicious activities. His proactive approach and adept handling of community interactions significantly enhanced user experience and engagement.\n\nFurthermore, Paul independently managed our ticketing system and was solely responsible for executing our Zealy campaigns. His strategic foresight and meticulous attention to detail resulted in flawless execution and contributed directly to our company's successes. His ability to manage these tasks autonomously, with little oversight, speaks volumes about his initiative and capability.\n\nIn addition to his operational roles, Paul also contributed to our project by writing educational threads on X, which played a crucial role in increasing our visibility and attracting new followers. His written communications were not only informative and well-crafted but also engaging and accessible, making complex topics easily understandable for our audience.\n\nPaul's reliability was unparalleled; he was always available and ready to handle any situation with professionalism and grace. His work was consistently perfect, marked by exceptional performance and proactive communication. He brought not only skill and dedication but also a positive attitude that made him a pleasure to work with.\n\nI confidently recommend Paul for any position or endeavor that he may seek to pursue. He will undoubtedly bring the same level of enthusiasm, dedication, and professionalism to any organization fortunate enough to have him.\n\nSincerely,\nHeiko Trenkle\nFounder, Nyxia AI",
+      image: "/testimonials/heiko-trenkle.jpg",
+      links: [
+        {
+          title: "Nyxia AI",
+          href: "https://x.com/nyxia_ai",
+          icon: <Icons.x className="h-4 w-4" />,
+        },
+        {
+          title: "LinkedIn",
+          href: "https://www.linkedin.com/in/heikolino/",
+          icon: <Icons.linkedin className="h-4 w-4" />,
+        },
+      ],
+    },
+  ],
+  volunteer: [
+    {
+      title: "Achievers DeFi Hub",
+      dates: "2020",
+      location: "Decentralised Finance Tutor",
+      description:
+        "Making decentralised finance practical and accessible through structured teaching, cohort sessions, and scalable educational content. Educated 10,000+ people through direct instruction and indirect reach across workshops, digital channels, and community programs.",
+      image: "",
       links: [],
     },
     {
-      title: "Hack The North",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
+      title: "Social Outreach on Twitter",
+      dates: "2020 to Present",
+      location: "Education & Content",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+        "Every week, I volunteer to write educational content (threads) to educate and eradicate DeFi illiteracy across the community.",
+      image: "/testimonials/paulchristain-x.jpg",
       links: [],
-    },
-    {
-      title: "FirstNet Public Safety Hackathon",
-      dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-      icon: "public",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
-      links: [],
-    },
-    {
-      title: "DeveloperWeek Hackathon",
-      dates: "February 3rd - 4th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
-      links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
-        },
-      ],
-    },
-    {
-      title: "HackDavis",
-      dates: "January 20th - 21st, 2018",
-      location: "Davis, California",
-      description:
-        "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
-      win: "Best Data Hack",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
-        },
-        {
-          title: "ML",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
-        },
-        {
-          title: "iOS",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/CarbonWallet",
-        },
-        {
-          title: "Server",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/wallet6-server",
-        },
-      ],
-    },
-    {
-      title: "ETH Waterloo",
-      dates: "October 13th - 15th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
-      links: [
-        {
-          title: "Organization",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ethdocnet",
-        },
-      ],
-    },
-    {
-      title: "Hack The North",
-      dates: "September 15th - 17th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a virtual reality application allowing users to see themselves in third person.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Streamer Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/htn2017",
-        },
-        {
-          title: "Client Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/RTSPClient",
-        },
-      ],
-    },
-    {
-      title: "Hack The 6ix",
-      dates: "August 26th - 27th, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed an open platform for people shipping items to same place to combine shipping costs and save money.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-6ix.jpg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
-        },
-        {
-          title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://share-ship.herokuapp.com/",
-        },
-      ],
-    },
-    {
-      title: "Stupid Hack Toronto",
-      dates: "July 23rd, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed a chrome extension which tracks which facebook profiles you have visited and immediately texts your girlfriend if you visited another girls page.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/stupid-hackathon.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/nsagirlfriend/nsagirlfriend",
-        },
-      ],
-    },
-    {
-      title: "Global AI Hackathon - Toronto",
-      dates: "June 23rd - 25th, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed a python library which can be imported to any python game and change difficulty of the game based on real time emotion of player. Uses OpenCV and webcam for facial recognition, and a custom Machine Learning Model trained on a [Kaggle Emotion Dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/leaderboard) using [Tensorflow](https://www.tensorflow.org/Tensorflow) and [Keras](https://keras.io/). This project recieved 1st place prize at the Global AI Hackathon - Toronto and was also invited to demo at [NextAI Canada](https://www.nextcanada.com/next-ai).",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/global-ai-hackathon.jpg",
-      win: "1st Place Winner",
-      links: [
-        {
-          title: "Article",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://syncedreview.com/2017/06/26/global-ai-hackathon-in-toronto/",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/TinySamosas/",
-        },
-      ],
-    },
-    {
-      title: "McGill AI for Social Innovation Hackathon",
-      dates: "June 17th - 18th, 2017",
-      location: "Montreal, Quebec",
-      description:
-        "Developed realtime facial microexpression analyzer using AI",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/ai-for-social-good.jpg",
-      links: [],
-    },
-    {
-      title: "Open Source Circular Economy Days Hackathon",
-      dates: "June 10th, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed a custom admin interface for food waste startup <a href='http://genecis.co/'>Genecis</a> to manage their data and provide analytics.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/open-source-circular-economy-days.jpg",
-      win: "1st Place Winner",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/genecis",
-        },
-      ],
-    },
-    {
-      title: "Make School's Student App Competition 2017",
-      dates: "May 19th - 21st, 2017",
-      location: "International",
-      description: "Improved PocketDoc and submitted to online competition",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/make-school-hackathon.png",
-      win: "Top 10 Finalist | Honourable Mention",
-      links: [
-        {
-          title: "Medium Article",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://medium.com/make-school/the-winners-of-make-schools-student-app-competition-2017-a6b0e72f190a",
-        },
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/pocketdoc-react-native",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/pocketdoc-react-native",
-        },
-      ],
-    },
-    {
-      title: "HackMining",
-      dates: "May 12th - 14th, 2017",
-      location: "Toronto, Ontario",
-      description: "Developed neural network to optimize a mining process",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-mining.png",
-      links: [],
-    },
-    {
-      title: "Waterloo Equithon",
-      dates: "May 5th - 7th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed Pocketdoc, an app in which you take a picture of a physical wound, and the app returns common solutions or cures to the injuries or diseases.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/waterloo-equithon.png",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/pocketdoc-react-native",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/pocketdoc-react-native",
-        },
-      ],
-    },
-    {
-      title: "SpaceApps Waterloo",
-      dates: "April 28th - 30th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed Earthwatch, a web application which allows users in a plane to virtually see important points of interest about the world below them. They can even choose to fly away from their route and then fly back if they choose. Special thanks to CesiumJS for providing open source world and plane models.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/space-apps.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/earthwatch",
-        },
-      ],
-    },
-    {
-      title: "MHacks 9",
-      dates: "March 24th - 26th, 2017",
-      location: "Ann Arbor, Michigan",
-      description:
-        "Developed Super Graphic Air Traffic, a VR website made to introduce people to the world of air traffic controlling. This project was built completely using THREE.js as well as a node backend server.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/mhacks-9.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/threejs-planes",
-        },
-      ],
-    },
-    {
-      title: "StartHacks I",
-      dates: "March 4th - 5th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed at StartHacks 2017, Recipic is a mobile app which allows you to take pictures of ingredients around your house, and it will recognize those ingredients using ClarifAI image recognition API and return possible recipes to make. Recipic recieved 1st place at the hackathon for best pitch and hack.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/starthacks.png",
-      win: "1st Place Winner",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source (Mobile)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/recipic-ionic",
-        },
-        {
-          title: "Source (Server)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/recipic-rails",
-        },
-      ],
-    },
-    {
-      title: "QHacks II",
-      dates: "February 3rd - 5th, 2017",
-      location: "Kingston, Ontario",
-      description:
-        "Developed a mobile game which enables city-wide manhunt with random lobbies",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/qhacks.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source (Mobile)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/human-huntr-react-native",
-        },
-        {
-          title: "Source (API)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/human-huntr-rails",
-        },
-      ],
-    },
-    {
-      title: "Terrible Hacks V",
-      dates: "November 26th, 2016",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mock of Windows 11 with interesting notifications and functionality",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/terrible-hacks-v.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/TerribleHacks2016-Windows11",
-        },
-      ],
-    },
-    {
-      title: "Portal Hackathon",
-      dates: "October 29, 2016",
-      location: "Kingston, Ontario",
-      description:
-        "Developed an internal widget for uploading assignments using Waterloo's portal app",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/UWPortalSDK/crowmark",
-        },
-      ],
     },
   ],
 } as const;
