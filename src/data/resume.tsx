@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "DeFi Growth Architect | Founder, Bethany Ventures. I help Web3 projects unlock scalable growth through ecosystem strategy, high-value partnerships, and community infrastructure backed by $1M+ in verified execution.",
   summary:
-    "High-impact Web3 Business Development and Ecosystem Growth leader with 5+ years of hands-on experience building strategic partnerships, scaling communities, and driving user and protocol adoption across DeFi, NFT, and Layer-1/Layer-2 ecosystems. Founded [Bethany Ventures](https://web.bethanyventures.org), an elite venture agency that has processed $2M+ in transaction volume across Listings, OTC, Market Making, and Fundraising. Experienced public speaker, X Space host, and ecosystem advisor trusted by protocols including OKX, Injective, Oraichain, and Pearl Finance.\n\nI specialize in providing tailored services to the DeFi community and project managers, covering everything from conceptualization to development and finalization. My approach is highly customizable, ensuring that every project receives the required attention and solutions it deserves for optimal success.",
+    "High-impact Web3 Business Development and Ecosystem Growth leader with 5+ years of hands-on experience building strategic partnerships, scaling communities, and driving user and protocol adoption across DeFi, NFT, and Layer-1/Layer-2 ecosystems. Founded [Bethany Ventures](https://www.bethany.ventures), an elite venture agency that has processed $2M+ in transaction volume across Listings, OTC, Market Making, and Fundraising. Experienced public speaker, X Space host, and ecosystem advisor trusted by protocols including OKX, Injective, Oraichain, and Pearl Finance.\n\nI specialize in providing tailored services to the DeFi community and project managers, covering everything from conceptualization to development and finalization. My approach is highly customizable, ensuring that every project receives the required attention and solutions it deserves for optimal success.",
   avatarUrl: "/headshot.jpg",
   skills: [
     { name: "Community Engagement" },
@@ -46,7 +46,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/paulcruiser",
+        url: "https://www.linkedin.com/in/akolawole-christian-8b2282204/",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -62,7 +62,7 @@ export const DATA = {
   work: [
     {
       company: "Bethany Ventures",
-      href: "https://web.bethanyventures.org",
+      href: "https://www.bethany.ventures",
       badges: [],
       location: "Remote",
       title: "Founder & Team Lead",
